@@ -82,6 +82,10 @@ A Next.js prototype demonstrating **6 key improvements** identified through anal
 **Problem:** "Aaswad Mitha Paan" shows ₹0 on the live site (data entry bug)  
 **Solution:** Prototype displays "⚠️ Price to be updated" with disabled Add to Cart to prevent revenue leak.
 
+### 15. 📞 Top Bar Direct Contact (WOW Feature)
+**Problem:** High-intent customers wanting to make bulk orders or follow social media have to hunt for links.
+**Solution:** A highly visible global top bar featuring a "Follow Us" Instagram link and a direct "Call to Book" dialer button.
+
 ---
 
 ## 🛠 Tech Stack
