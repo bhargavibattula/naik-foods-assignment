@@ -4,6 +4,7 @@ import React, { useState, use } from "react";
 import Link from "next/link";
 import { products, getProductBySlug, getProductById } from "@/data/products";
 import { useCart } from "@/context/CartContext";
+import { useToast } from "@/context/ToastContext";
 import PincodeChecker from "@/components/PincodeChecker";
 import ProductCard from "@/components/ProductCard";
 
@@ -11,6 +12,7 @@ export default function ProductPage({ params }: { params: Promise<{ slug: string
   const { slug } = use(params);
   const product = getProductBySlug(slug);
   const { addItem } = useCart();
+  const { addToast } = useToast();
   const [quantity, setQuantity] = useState(1);
   const [activeTab, setActiveTab] = useState<"description" | "reviews">("description");
   const [isSubscription, setIsSubscription] = useState(false);
@@ -229,12 +231,9 @@ export default function ProductPage({ params }: { params: Promise<{ slug: string
               <button
                 onClick={() => {
                   addItem({
-                    id: product.id,
-                    name: product.name,
+                    ...product,
                     price: isSubscription ? Math.round(product.price * 0.9) : product.price,
-                    image: product.image,
-                    quantity: quantity,
-                  });
+                  }, quantity);
                   addToast(`Added ${quantity} ${product.name} to cart`);
                 }}
                 className="flex-1 bg-[#c77b1f] text-white py-3 px-6 rounded-xl font-bold hover:bg-[#b06a19] transition-colors shadow-lg shadow-[#c77b1f]/20 flex items-center justify-center gap-2"
