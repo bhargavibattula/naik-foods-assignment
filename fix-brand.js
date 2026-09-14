@@ -37,7 +37,7 @@ files.forEach(file => {
     content = content.replace(/Alibag coast/g, 'Konkan coast');
     content = content.replace(/Alibag papads/g, 'Maharashtrian papads');
     content = content.replace(/Alibag taste/g, 'Maharashtrian taste');
-    content = content.replace(/Alibag's food culture/g, 'Maharashtra\\'s food culture');
+    content = content.replace(/Alibag's food culture/g, "Maharashtra's food culture");
     content = content.replace(/childhood in Alibag/g, 'childhood in Vidarbha');
     
     fs.writeFileSync(file, content);

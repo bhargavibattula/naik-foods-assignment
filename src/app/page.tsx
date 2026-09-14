@@ -7,7 +7,7 @@ import RecentlyViewed from "@/components/RecentlyViewed";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Naik Konkan Foods - Authentic Alibag Delicacies",
+  title: "Naik Foods — Authentic Maharashtrian Delicacies & Masalas",
   description: "Authentic spices, pickles, and snacks from the heart of Konkan.",
 };
 
@@ -28,7 +28,7 @@ export default function HomePage() {
         </div>
         <div className="relative z-10 text-center px-4 max-w-3xl mx-auto animate-fade-in-up">
           <span className="inline-block px-4 py-1.5 bg-[#c77b1f] text-white text-xs font-bold rounded-full uppercase tracking-widest mb-6 shadow-lg shadow-[#c77b1f]/30">
-            Since 1970 • Alibag, Maharashtra
+            Since 1970 • Pune, Maharashtra
           </span>
           <h1 className="font-serif text-5xl md:text-7xl font-bold text-[#fbf6ec] mb-6 drop-shadow-md">
             The True Taste of <span className="text-[#c77b1f]">Konkan</span>
@@ -59,7 +59,7 @@ export default function HomePage() {
           <span className="flex items-center gap-2"><span className="text-xl">🌿</span> 100% Natural</span>
           <span className="flex items-center gap-2"><span className="text-xl">☀️</span> Sun-dried</span>
           <span className="flex items-center gap-2"><span className="text-xl">👩🏽‍🍳</span> Naik Aaji's Recipe</span>
-          <span className="flex items-center gap-2"><span className="text-xl">🇮🇳</span> Made in Alibag</span>
+          <span className="flex items-center gap-2"><span className="text-xl">🇮🇳</span> Made in Pune</span>
         </div>
       </section>
 

@@ -11,12 +11,12 @@ export default function Footer() {
             <div className="flex items-center gap-2 mb-4">
               <span className="text-2xl">🥥</span>
               <div>
-                <h2 className="font-serif text-lg font-bold text-[#f3ead7]">Naik Konkan Foods</h2>
-                <p className="text-[10px] tracking-widest uppercase text-[#a89580]">Authentic Alibag Delicacies</p>
+                <h2 className="font-serif text-lg font-bold text-[#f3ead7]">Naik Foods</h2>
+                <p className="text-[10px] tracking-widest uppercase text-[#a89580]">Authentic flavors from Vidarbha & Konkan</p>
               </div>
             </div>
             <p className="text-sm text-[#a89580] leading-relaxed">
-              Discover the authentic taste of Konkan. Premium, traditionally-made delicacies from Alibag, Maharashtra.
+              Discover the authentic taste of Konkan. Premium, traditionally-made delicacies from Pune, Maharashtra.
             </p>
             <div className="flex gap-3 mt-4">
               <a href="https://www.facebook.com/naikkonkanfoodbazar" target="_blank" rel="noopener noreferrer" className="p-2 bg-[#5a4636]/30 rounded-lg hover:bg-[#c77b1f]/30 transition-colors" aria-label="Facebook">
@@ -60,7 +60,7 @@ export default function Footer() {
             <ul className="space-y-3 text-sm text-[#a89580]">
               <li className="flex items-start gap-2">
                 <span>📍</span>
-                <span>Alibag, Raigad District, Maharashtra, India</span>
+                <span>Shukrawar Peth, Pune, Maharashtra, India</span>
               </li>
               <li className="flex items-center gap-2">
                 <span>🌐</span>
@@ -78,7 +78,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-10 pt-6 border-t border-[#5a4636]/30 flex flex-col md:flex-row items-center justify-between gap-2 text-xs text-[#a89580]">
-          <p>© 2026 Naik Konkan Foods. All rights reserved.</p>
+          <p>© 2026 Naik Foods. All rights reserved.</p>
           <p>
             Prototype built for{" "}
             <span className="text-[#c77b1f] font-medium">Bits and Volts Pvt. Ltd.</span>{" "}

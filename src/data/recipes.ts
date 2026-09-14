@@ -29,7 +29,7 @@ export const recipes: Recipe[] = [
     slug: "konkani-fish-curry",
     name: "Konkani Fish Curry (Ambot Tik)",
     description:
-      "A tangy, spicy fish curry from the Konkan coast — the soul food of every Alibag household. Made with kokum, Malvani masala, and fresh catch. This recipe uses Naik Konkan Foods products to deliver authentic flavor without spending hours grinding masalas.",
+      "A tangy, spicy fish curry from the Konkan coast — the soul food of every Maharashtrian household. Made with kokum, Malvani masala, and fresh catch. This recipe uses Naik Foods products to deliver authentic flavor without spending hours grinding masalas.",
     image: "/fish-curry.jpg",
     cookTime: "40 mins",
     servings: 4,

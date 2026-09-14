@@ -83,10 +83,10 @@ export default function Header() {
             <span className="text-2xl">🥥</span>
             <div>
               <h1 className="font-serif text-xl font-bold text-[#2b1b12] leading-tight tracking-tight">
-                Naik Konkan Foods
+                Naik Foods
               </h1>
               <p className="text-[10px] text-[#5a4636] tracking-widest uppercase -mt-0.5">
-                Authentic Alibag Delicacies
+                Authentic flavors from Vidarbha & Konkan
               </p>
             </div>
           </Link>

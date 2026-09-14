@@ -72,12 +72,12 @@ const reviewPool: Review[] = [
   { id: "r2", author: "Rohan K.", rating: 4, date: "2026-08-15", comment: "Good quality and fresh. Packaging could be a bit better.", verified: true },
   { id: "r3", author: "Sneha D.", rating: 5, date: "2026-07-28", comment: "Ordered for the second time. My whole family loved it!", verified: true },
   { id: "r4", author: "Amit P.", rating: 3, date: "2026-07-10", comment: "Decent product but expected more spice. Still good value for money.", verified: true },
-  { id: "r5", author: "Kavita S.", rating: 5, date: "2026-08-05", comment: "Reminds me of my childhood in Alibag. Pure nostalgia!", verified: true },
+  { id: "r5", author: "Kavita S.", rating: 5, date: "2026-08-05", comment: "Reminds me of my childhood in Vidarbha. Pure nostalgia!", verified: true },
   { id: "r6", author: "Vaibhav N.", rating: 4, date: "2026-06-22", comment: "Great taste, fast delivery. Would recommend to anyone missing Konkan food.", verified: true },
   { id: "r7", author: "Megha R.", rating: 5, date: "2026-08-30", comment: "Best quality I've found online. So fresh and aromatic!", verified: true },
   { id: "r8", author: "Suresh T.", rating: 4, date: "2026-07-18", comment: "Good product. The shelf life is also decent. Satisfied with purchase.", verified: false },
   { id: "r9", author: "Anjali B.", rating: 5, date: "2026-09-01", comment: "Gift hamper idea was perfect for Ganpati. Everyone loved it.", verified: true },
-  { id: "r10", author: "Deepak G.", rating: 4, date: "2026-08-12", comment: "Authentic Alibag taste. Will be ordering regularly now.", verified: true },
+  { id: "r10", author: "Deepak G.", rating: 4, date: "2026-08-12", comment: "Authentic Maharashtrian taste. Will be ordering regularly now.", verified: true },
 ];
 
 // ─── Products ────────────────────────────────────────────────────────────────
@@ -540,7 +540,7 @@ export const products: Product[] = [
     id: "dryfish-1",
     name: "Bombil (Bombay Duck) Dry",
     slug: "bombil-dry",
-    description: "Premium sun-dried Bombay Duck from Alibag coast. A Konkan non-veg delicacy.",
+    description: "Premium sun-dried Bombay Duck from Konkan coast. A Konkan non-veg delicacy.",
     category: "Dry Fish Bazar",
     categorySlug: "dry-fish-bazar",
     price: 350,
@@ -834,7 +834,7 @@ export const products: Product[] = [
     id: "gift-2",
     name: "Naik's Pickle & Papad Hamper",
     slug: "pickle-papad-hamper",
-    description: "The ultimate savory combo in a beautifully crafted wooden box. Includes Mango Pickle, Mixed Veg Pickle, and 3 varieties of traditional Alibag papads.",
+    description: "The ultimate savory combo in a beautifully crafted wooden box. Includes Mango Pickle, Mixed Veg Pickle, and 3 varieties of traditional Maharashtrian papads.",
     category: "Gift Boxes",
     categorySlug: "gift",
     price: 550,

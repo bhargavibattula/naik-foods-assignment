@@ -1,90 +1,19 @@
-# 🥥 Naik Konkan Foods — Enhanced Prototype
+# 🥥 Naik Foods — Enhanced Prototype
 
 > **Full Stack MERN Intern Task Submission**  
 > Built for **Bits and Volts Pvt. Ltd.**
 
 A Next.js prototype demonstrating **6 key improvements** identified through analysis of [naikfoods.com](https://www.naikfoods.com) — focusing on conversion optimization, user experience, and growth-ready features.
 
----
 
-## 🚀 Live Demo
-
-**Deployed URL:** _[To be added after Vercel/Netlify deployment]_
-
----
-
-## ✨ Features Implemented (With Visuals)
-
-> **Note to Reviewer:** See the `public/screenshots` directory for high-res images of these features in action!
-
-### 1. 🔍 Product Search & Filters
-**Problem:** No search bar for 115+ SKUs — users can't find what they want  
-**Solution:** Real-time full-text search across product names, descriptions, categories, and tags. Bonus: Category pills, price range slider, veg/non-veg toggle, sort options.
-![Search & Filters UI](/public/screenshots/search.png)
-
-### 2. 🚚 Free Delivery Progress Bar
-**Problem:** ₹999 free delivery threshold exists but no visual progress indicator  
-**Solution:** Animated progress bar in cart showing "Add ₹X more for FREE delivery"  
-**Impact:** This is a proven AOV lever — typically lifts cart size 10-15%
-![Free Delivery Progress](/public/screenshots/cart-drawer.png)
-
-### 3. 📍 Pincode Serviceability Checker
-**Problem:** Users from unserviceable areas add to cart and bounce at checkout  
-**Solution:** Pincode check on product page with delivery estimate.
-![Pincode Checker](/public/screenshots/product-page.png)
-
-### 4. ⭐ Product Reviews & Ratings
-**Problem:** Only generic homepage testimonials, no per-product social proof  
-**Solution:** Star ratings on cards + detailed reviews on PDP with verified badges.
-
-### 5. 🔥 Urgency & Scarcity Signals
-**Problem:** No social proof or urgency cues anywhere on the site  
-**Solution:** "X people bought this week", "Only Y left in stock!", low-stock badges.
-
-### 6. 🎁 Bundle Combos & Cross-Sell
-**Problem:** No AOV optimization — no "frequently bought together" or combo packs  
-**Solution:** Bundle cards with combo discounts (8-12% off) + cross-sell in cart drawer.
-![Bundle Combos](/public/screenshots/bundles.png)
-
-### 7. 👩🏽‍🍳 Recipe Content Engine (WOW Feature)
-**Problem:** Missing content-to-commerce pipeline  
-**Solution:** 5 authentic Konkan recipes with one-click "Add All Ingredients to Cart".
-![Recipe Engine](/public/screenshots/recipes.png)
-
-### 8. 💖 Wishlist & Re-engagement (WOW Feature)
-**Problem:** Users browse but don't convert immediately; no way to save intent  
-**Solution:** Heart-toggle wishlist saved to local storage + "Recently Viewed" carousel.
-
-### 9. 📱 WhatsApp Ordering (WOW Feature)
-**Problem:** Bulk and custom orders have high friction  
-**Solution:** Floating WhatsApp widget with pre-filled message.
-
-### 10. ⚡ Micro-Interactions (WOW Feature)
-**Problem:** Flat UX doesn't feel "premium"  
-**Solution:** Quick View modal, Toast notifications, and CSS animations.
-
-### 11. 🔄 Subscribe & Save (WOW Feature)
-**Problem:** Missing recurring revenue model for daily essentials.
-**Solution:** Native "Subscribe & Save 10%" toggle on product pages to drive Monthly Recurring Revenue (MRR).
-![Subscribe & Save UI](/public/screenshots/subscribe.png)
-
-### 12. 🪙 Naik Coins Loyalty Program (WOW Feature)
-**Problem:** No gamification for customer retention.
-**Solution:** Integrated "Naik Coins" rewards balance in the header navigation to incentivize repeat purchases.
-![Naik Coins](/public/screenshots/header.png)
-
-### 13. 🎊 Festive Gifting Banners
-**Problem:** Poor promotion of high-margin corporate/festive gifts.
-**Solution:** Premium visual banners driving traffic to curated gift boxes.
-![Festive Gifting](/public/screenshots/festive.png)
-
-### 14. 💳 ₹0 Price Bug Fix
-**Problem:** "Aaswad Mitha Paan" shows ₹0 on the live site (data entry bug)  
-**Solution:** Prototype displays "⚠️ Price to be updated" with disabled Add to Cart to prevent revenue leak.
-
-### 15. 📞 Top Bar Direct Contact (WOW Feature)
-**Problem:** High-intent customers wanting to make bulk orders or follow social media have to hunt for links.
-**Solution:** A highly visible global top bar featuring a "Follow Us" Instagram link and a direct "Call to Book" dialer button.
+### 16. ♿ Accessibility & UX Enhancements
+**Problem:** The live site suffers from a few citable UX and accessibility bugs:
+1. **Viewport Meta Tag:** Sets `maximum-scale=1, user-scalable=no`, completely disabling pinch-to-zoom (critical accessibility bug for a food/ingredient site).
+2. **Generic Testimonials:** Features placeholder/stock avatars with mismatched names, which damages brand trust.
+3. **Newsletter Form:** Has no visible confirmation state upon signup.
+4. **Pagination vs Filtering:** Store paginates 12 products per page across 10 pages but restricts sorting to "Newest first" only, reinforcing the urgent need for the robust search/filter/sort system implemented in this prototype.
+5. **Store Locator Scaling:** Only lists a single Shukrawar Peth, Pune address under "Visit Our Store", lacking a scalable locator for future expansion.
+**Solution:** Prototype implements accessible meta tags, provides real product-level reviews instead of fake global testimonials, and overhauls the store UX.
 
 ---
 
@@ -96,7 +25,7 @@ A Next.js prototype demonstrating **6 key improvements** identified through anal
 | Language | **TypeScript** |
 | Styling | **Tailwind CSS v4** |
 | State | React Context (Cart) |
-| Data | Mock data layer (30+ products, 10 categories, reviews, pincodes) |
+| Data | Mock data layer (30+ products, 8 categories, reviews, pincodes) |
 | Deployment | Vercel / Netlify compatible |
 
 > **Why Next.js?** The live site already uses Next.js. This prototype mirrors the real stack while demonstrating improvements, making it directly relevant for integration discussions.
@@ -190,4 +119,4 @@ npm run build
 
 ---
 
-*Built with ❤️ for Naik Konkan Foods — Authentic Alibag Delicacies*
+*Built with ❤️ for Naik Foods — Authentic flavors from Vidarbha & Konkan*

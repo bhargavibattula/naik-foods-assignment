@@ -261,7 +261,7 @@ export default function ProductPage({ params }: { params: Promise<{ slug: string
           <div className="grid grid-cols-3 gap-3 mb-6">
             {[
               { icon: "🌿", label: "100% Natural" },
-              { icon: "🏡", label: "Alibag Made" },
+              { icon: "🏡", label: "Pune Made" },
               { icon: "📦", label: "Fresh Packed" },
             ].map((h) => (
               <div key={h.label} className="text-center p-3 bg-[#f3ead7] rounded-xl">

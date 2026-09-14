@@ -11,9 +11,9 @@ import ToastContainer from "@/components/ToastContainer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 
 export const metadata: Metadata = {
-  title: "Naik Konkan Foods - Authentic Alibag Delicacies | Prototype",
+  title: "Naik Foods — Authentic Maharashtrian Delicacies & Masalas | Prototype",
   description:
-    "Discover the authentic taste of Konkan with Naik Konkan Foods. Premium, traditionally-made Konkan delicacies — spices, pickles, chikki, and more. Prototype with improved search, filters, cart UX, and more.",
+    "Discover the authentic taste of Konkan with Naik Foods. Premium, traditionally-made Konkan delicacies — spices, pickles, chikki, and more. Prototype with improved search, filters, cart UX, and more.",
   keywords: "konkan food, alibag, pickles, masala, chikki, naik foods, maharashtrian food",
 };
 

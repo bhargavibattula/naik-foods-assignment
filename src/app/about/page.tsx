@@ -3,8 +3,8 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About Naik Aaji | Naik Konkan Foods",
-  description: "The story behind Naik Konkan Foods — tradition, taste, and Naik Aaji's legacy.",
+  title: "About Naik Aaji | Naik Foods",
+  description: "The story behind Naik Foods — tradition, taste, and Naik Aaji's legacy.",
 };
 
 export default function AboutPage() {
@@ -20,7 +20,7 @@ export default function AboutPage() {
 
       <div className="prose prose-sm max-w-none space-y-6 text-[#5a4636] leading-relaxed">
         <p>
-          Welcome to <strong>Naik Konkan Foods</strong>, where tradition meets taste, and every dish tells a story. 
+          Welcome to <strong>Naik Foods</strong>, where tradition meets taste, and every dish tells a story. 
           At the heart of our culinary journey lies the indomitable spirit of <strong>Naik Aaji</strong>, a revered 
           figure whose passion for flavor and dedication to quality have shaped the essence of our brand.
         </p>
