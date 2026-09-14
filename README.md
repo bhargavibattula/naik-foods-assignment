@@ -180,8 +180,8 @@ npm run build
 
 ## 👤 Submitted By
 
-**Name:** _[Your Name]_  
-**Email:** _[Your Email]_  
+**Name:** BATTULA BHARGAVITEJASWI  
+**Email:** bhargavitejaswi97@gmail.com  
 **Date:** September 15, 2026  
 
 ---
