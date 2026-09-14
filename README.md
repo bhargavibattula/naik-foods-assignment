@@ -180,6 +180,8 @@ npm run build
 
 ## 📊 Analysis Summary
 
+> **Note on Categories:** Category taxonomy in this prototype is illustrative; a production build would map directly to the live site's 8 categories.
+
 | Drawback Found | Business Impact | Feature Built |
 |---------------|----------------|---------------|
 | No search for 115+ SKUs | High intent users leave | ✅ Full-text search |
